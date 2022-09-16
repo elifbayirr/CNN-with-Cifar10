@@ -1,5 +1,9 @@
 # CNN-with-Cifar10
 
+The code is in the "3.implementation" file.
+
+You do not need to import the dataset, it will be imported by itself because of the library. -thanks to this line: from keras.datasets import cifar10
+
 CNN can take in an input image, assign importance (learnable weights and biases) to various aspects/objects in the image and be able to differentiate one from the other.
 
  Classify pictures in 10 categories. For example, is our picture a cat or an airplane ?
